@@ -1,10 +1,23 @@
 @charset "UTF-8";
 /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
   display: block;
 }
 
-audio, canvas, video {
+audio,
+canvas,
+video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -25,7 +38,11 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-html, button, input, select, textarea {
+html,
+button,
+input,
+select,
+textarea {
   font-family: sans-serif;
 }
 
@@ -37,7 +54,8 @@ a:focus {
   outline: thin dotted;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0;
 }
 
@@ -75,7 +93,8 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-b, strong {
+b,
+strong {
   font-weight: bold;
 }
 
@@ -97,11 +116,15 @@ mark {
   color: #000;
 }
 
-p, pre {
+p,
+pre {
   margin: 1em 0;
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, serif;
   _font-family: "courier new", monospace;
   font-size: 1em;
@@ -117,7 +140,8 @@ q {
   quotes: none;
 }
 
-q:before, q:after {
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -126,7 +150,8 @@ small {
   font-size: 80%;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -141,7 +166,10 @@ sub {
   bottom: -0.25em;
 }
 
-dl, menu, ol, ul {
+dl,
+menu,
+ol,
+ul {
   margin: 1em 0;
 }
 
@@ -149,11 +177,14 @@ dd {
   margin: 0 0 0 40px;
 }
 
-menu, ol, ul {
+menu,
+ol,
+ul {
   padding: 0 0 0 40px;
 }
 
-nav ul, nav ol {
+nav ul,
+nav ol {
   list-style: none;
   list-style-image: none;
 }
@@ -188,32 +219,44 @@ legend {
   *margin-left: -7px;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
   *vertical-align: middle;
 }
 
-button, input {
+button,
+input {
   line-height: normal;
 }
 
-button, select {
+button,
+select {
   text-transform: none;
 }
 
-button, html input[type=button], input[type=reset], input[type=submit] {
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
   -webkit-appearance: button;
+  -moz-appearance: button;
+       appearance: button;
   cursor: pointer;
   *overflow: visible;
 }
 
-button[disabled], html input[disabled] {
+button[disabled],
+html input[disabled] {
   cursor: default;
 }
 
-input[type=checkbox], input[type=radio] {
+input[type=checkbox],
+input[type=radio] {
   box-sizing: border-box;
   padding: 0;
   *height: 13px;
@@ -222,14 +265,19 @@ input[type=checkbox], input[type=radio] {
 
 input[type=search] {
   -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+       appearance: textfield;
   box-sizing: content-box;
 }
 
-input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
+  appearance: none;
 }
 
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
@@ -248,13 +296,15 @@ body {
   padding: 0;
 }
 
-.jumbotron p, body p {
+.jumbotron p,
+body p {
   margin: 0 0 1em;
   font-weight: normal;
   color: #444;
 }
 
-.jumbotron h1, body h1 {
+.jumbotron h1,
+body h1 {
   margin-bottom: 30px;
   font-size: 60px;
 }
@@ -287,9 +337,13 @@ form {
   border-bottom: 2px solid #333;
   margin: 0;
   padding: 10px;
-  -webkit-border-radius: 0px;
   font-size: 14px;
   width: 100%;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
 }
 
 input[type=submit] {
@@ -315,7 +369,8 @@ footer p {
 .wpcf7 p:nth-of-type(3) {
     flex: 0 0 100%;
   }
-  input[type=text], input[type=email] {
+  input[type=text],
+input[type=email] {
     width: 100%;
   }
 }

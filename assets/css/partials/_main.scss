@@ -1,18 +1,24 @@
 body {
 	padding: 0;
 }
-.jumbotron p, body p {
+
+.jumbotron p,
+body p {
 	margin: 0 0 1em;
 	font-weight: normal;
 	color: #444;
 }
-.jumbotron h1, body h1 {
+
+.jumbotron h1,
+body h1 {
 	margin-bottom: 30px;
 	font-size: 60px;
 }
+
 body .logo h1 {
 	margin: 0;
 }
+
 form {
 	margin: 15px auto 0;
 	display: flex;
@@ -20,66 +26,59 @@ form {
 	margin-right: -15px;
 	margin-left: -15px;
 }
+
 .wpcf7 p {
 	padding-right: 15px;
 	padding-left: 15px;
 	flex: 0 0 50%;
 }
+
 .wpcf7 label {
 	width: 100%;
 }
+
 .wpcf7 input {
 	background-color: transparent;
 	border: none;
 	border-bottom: 2px solid #333;
 	margin: 0;
 	padding: 10px;
-	-webkit-border-radius: 0px;
 	font-size: 14px;
 	width: 100%;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
 }
+
 input[type=submit] {
 	border: 2px solid #333;
 	padding: 10px 20px;
 }
+
 input.wpcf7-submit {
 	flex: 0 0 100%;
 	margin-top: 0;
 	display: inline-block;
 	width: auto;
 }
+
 footer p {
 	font-size: 13px;
 	padding: 2em 0;
 }
 
-@media (max-width: 768px) {
-	footer p {
-		
-	}
-}
 @media (max-width: 480px) {
+
 	.wpcf7 p:nth-of-type(1),
 	.wpcf7 p:nth-of-type(2),
 	.wpcf7 p:nth-of-type(3) {
 		flex: 0 0 100%;
 	}
-	input[type=text], input[type=email] {
+
+	input[type=text],
+	input[type=email] {
 		width: 100%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
