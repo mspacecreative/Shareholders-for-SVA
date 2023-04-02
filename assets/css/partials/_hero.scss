@@ -4,6 +4,7 @@
 	background-position: center;
 	overflow: hidden;
 	padding-bottom: 20em;
+	margin-bottom: -20em;
 
 	&::before {
 		background-image: url(../img/backgrounds/blob.svg);
