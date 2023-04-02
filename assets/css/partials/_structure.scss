@@ -100,9 +100,9 @@ header {
 .boxed {
 	display: flex;
 	flex-direction: column;
-	padding: 2em;
-	box-shadow: 0 5px 0 $brandOrange;
-	//border: 1px solid $brandOrange;
+	padding: 3em;
+	box-shadow: 0 5px 0 $brandPurple;
+	text-align: left;
 	height: 100%;
 	background-color: #e7e7e7;
 	border-radius: 15px;
