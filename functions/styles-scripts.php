@@ -2,7 +2,8 @@
 
 // Load HTML5 Blank styles
 function fsd_styles() {
-    wp_register_style( 'main-css', get_template_directory_uri() . '/assets/css/style.css', array(), null );
+	$rand_num = rand();
+    wp_register_style( 'main-css', get_template_directory_uri() . '/assets/css/style.css?ver=' . $rand_num, array(), null );
 	wp_enqueue_style( 'main-css' );
 	
 	wp_register_style( 'slick-css', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), null );
@@ -20,7 +21,7 @@ function fsd_styles() {
     //wp_register_script('aos-script', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js', array('jquery'), null, true);
 	//wp_enqueue_script('aos-script');
 	
-	wp_register_script('main-js', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), null, true);
+	wp_register_script('main-js', get_template_directory_uri() . '/assets/js/main.js?ver=' . $rand_num, array('jquery'), null, true);
 	wp_enqueue_script( 'main-js' );
 }
 add_action( 'wp_enqueue_scripts', 'fsd_styles' ); // Add Theme Stylesheet
