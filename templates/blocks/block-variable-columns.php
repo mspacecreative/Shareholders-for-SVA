@@ -155,11 +155,21 @@ if ( $blockanchor && $bgcolor == 'dark' ): ?>
 			
 			<?php elseif ( $boxedcontent ): ?>
 			<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				<?php
+				$link = get_sub_field('link');
+				if ( $link ): ?>
+				<a href="<?php echo $link ?>" target="_blank">
 				<div class="boxed">
-					<?php 
-					include 'includes/content-stacked.php';
+					<?php include 'includes/content-stacked.php';
 					echo '<div class="arrow_container">'; include 'includes/icons/arrow.svg'; echo '</div>'; ?>
 				</div>
+				</a>
+				<?php else: ?>
+				<div class="boxed">
+					<?php include 'includes/content-stacked.php';
+					echo '<div class="arrow_container">'; include 'includes/icons/arrow.svg'; echo '</div>'; ?>
+				</div>
+				<?php endif; ?>
 			</div>
 			
 			<?php else : ?>
