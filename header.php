@@ -56,7 +56,7 @@
 
 							<div class="row end-lg end-md end-sm col col-lg-3 col-md-3 col-sm-3 col-xs-12">
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<a class="btn mailing-list" href="/#mailing-list">Join Mailing List</a>
+									<a class="btn mailing-list" href="<?php echo home_url() ?>/#mailing-list">Join Mailing List</a>
 								</div>
 							</div>
 
