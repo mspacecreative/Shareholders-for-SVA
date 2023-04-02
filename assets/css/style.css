@@ -548,6 +548,10 @@ header {
     padding-bottom: 1rem;
   }
 }
+.light-bg {
+  background-color: #4A54BD;
+}
+
 .hero {
   background-repeat: no-repeat;
   background-size: cover;
