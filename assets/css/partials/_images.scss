@@ -1,0 +1,28 @@
+img {
+    max-width: 100%;
+    width: auto;
+}
+
+.logo--blue {
+    fill: $brandBlue;
+}
+
+.logo--orange {
+    fill: $brandOrange;
+}
+
+header:not(.white-bg) {
+    .logo--blue {
+        fill: #fff;
+    }
+
+    .top-header {
+        color: #fff;
+    }
+}
+
+.up {
+    .logo--blue {
+        fill: #fff;
+    }
+}

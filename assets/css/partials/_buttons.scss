@@ -1,0 +1,20 @@
+.btn {
+  padding: 10px 20px;
+  display: inline-block;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.btn.light {
+  color: #fff;
+  border-color: #fff;
+}
+
+header .top-header .mailing-list {
+  background-color: $brandBlue;
+  border-color: $brandBlue;
+  color: #fff;
+  border-radius: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+}

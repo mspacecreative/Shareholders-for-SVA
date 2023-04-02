@@ -1,0 +1,37 @@
+.row.gutter_space_2 {
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+
+    .col {
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+    }
+}
+
+#cards.section {
+    // padding: 0;
+    margin-top: -6em;
+    padding-bottom: calc(6em - 1rem);
+}
+
+.darkbg {
+    background-color: $brandBlue;
+}
+
+.maxwidth--1080 {
+	max-width: 1080px;
+}
+
+.maxwidth--800 {
+	max-width: 800px;
+}
+
+.auto-margins {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.top-bottom-padding {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
