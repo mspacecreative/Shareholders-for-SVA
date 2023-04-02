@@ -554,7 +554,6 @@ header {
   background-position: center;
   overflow: hidden;
   padding-bottom: 20em;
-  margin-bottom: -20em;
 }
 .hero::before {
   background-image: url(../img/backgrounds/blob.svg);
@@ -565,7 +564,7 @@ header {
   top: 0;
   left: 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: top -200px center;
 }
 .hero .section {
