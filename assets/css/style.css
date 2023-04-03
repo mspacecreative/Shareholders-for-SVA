@@ -432,6 +432,9 @@ header {
   .logo {
     max-width: 200px;
   }
+  .hero .inner_container {
+    padding-top: 6em;
+  }
 }
 .container {
   width: 100%;
