@@ -47,7 +47,7 @@
 
 .error404 header~.section {
     min-height: calc(100vh - 76px);
-    background-size: 200%;
+    background-size: 200% !important;
     background-position: bottom 100px center !important;
 }
 
