@@ -854,6 +854,10 @@ hr {
     padding-left: inherit;
     padding-right: inherit;
   }
+  .jumbotron h1,
+body h1 {
+    font-size: 40px;
+  }
 }
 #contact p,
 #contact a {
