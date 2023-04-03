@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
 
-<section class="section" style="background: url(https://securemagt.com/wp-content/themes/restorefsd/assets/img/backgrounds/securemagt-gradient-bg.svg) no-repeat top center scroll; background-size: cover;">
+<section class="section" style="background: url(<?php echo home_url(); ?>/assets/img/backgrounds/blob.svg) no-repeat center center scroll; background-size: cover;">
 	<div class="inner_container light" style="padding-top: 6em;">
 		
 		<h2><?php esc_html_e('Page not found'); ?></h2>
