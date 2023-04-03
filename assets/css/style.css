@@ -2064,6 +2064,9 @@ header .top-header .fa {
 header .top-header a {
   color: #fff;
 }
+header .top-header .col {
+  margin-bottom: 0;
+}
 
 .white-bg .top-header a {
   color: #000;
