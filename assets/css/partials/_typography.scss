@@ -209,6 +209,10 @@ hr {
 	body h1 {
 		font-size: 40px;
 	}
+
+	.hero::before {
+		background-size: cover;
+	}
 }
 
 #contact p,
