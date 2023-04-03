@@ -2122,6 +2122,7 @@ header.up {
 .row.gutter_space_2 .col {
   padding-right: 1.5em;
   padding-left: 1.5em;
+  margin-bottom: 2em;
 }
 
 #cards.section {
