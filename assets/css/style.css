@@ -2064,7 +2064,7 @@ header .top-header .fa {
 header .top-header a {
   color: #fff;
 }
-header .top-header .col {
+header .top-header .row.gutter_space_2 .col {
   margin-bottom: 0;
 }
 
