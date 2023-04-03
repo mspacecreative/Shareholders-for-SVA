@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
 
-<section class="section" style="background: url(<?php echo home_url(); ?>/assets/img/backgrounds/blob.svg) no-repeat center center scroll; background-size: cover;">
+<section class="section" style="background: url(<?php echo get_template_directory_uri(); ?>/assets/img/backgrounds/blob.svg) no-repeat center center scroll; background-size: cover;">
 	<div class="inner_container light" style="padding-top: 6em;">
 		
 		<h2><?php esc_html_e('Page not found'); ?></h2>
