@@ -2170,6 +2170,11 @@ header.up {
   background-position: bottom 100px center !important;
 }
 
+@media (max-device-width: 880px) and (orientation: landscape) {
+  .error404 header ~ .section {
+    background-position: center !important;
+  }
+}
 @media (max-width: 980px) {
   .hero .inner_container {
     padding-top: 6em;
