@@ -68,7 +68,7 @@
 
 					<div class="inner_container">
 						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="display: flex; align-items: center;">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-7" style="display: flex; align-items: center;">
 								<div class="logo">
 									<a href="<?php echo home_url(); ?>">
 										<?php include 'assets/img/branding/shareholders_for_SVA.svg'; ?>
@@ -76,7 +76,7 @@
 								</div>
 							</div>
 							
-							<div class="row end-lg end-md end-sm end-xs col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
+							<div class="row end-lg end-md end-sm end-xs col-lg-6 col-md-6 col-sm-6 col-xs-5" style="padding-right: 0;">
 							
 								<!-- SOCIAL MEDIA -->
 								<!-- <?php echo do_shortcode('[social_media]'); ?> -->
