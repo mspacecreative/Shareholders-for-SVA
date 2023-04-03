@@ -854,6 +854,9 @@ hr {
     padding-left: inherit;
     padding-right: inherit;
   }
+  .contact-info {
+    display: none;
+  }
   .jumbotron h1,
 body h1 {
     font-size: 40px;
