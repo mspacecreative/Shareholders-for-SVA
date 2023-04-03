@@ -32,7 +32,7 @@
 			<div class="row between-lg between-md" style="margin-right: auto; margin-left: auto;">
 				<div class="inner_container">
 					<div class="top-header" style="flex-basis: 100%;">
-						<div class="row middle-lg middle-md middle-sm between-lg between-md between-sm end-xs">
+						<div class="row middle-lg middle-md middle-sm between-lg between-md end-xs">
 							
 							<div class="col col-lg-9 col-md-9 col-sm-9 col-xs-12">
 								<?php
@@ -54,7 +54,7 @@
 								</div>
 							</div>
 
-							<div class="row end-lg end-md end-sm col col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<div class="row end-lg end-md end-sm col col-lg-3 col-md-3 col-sm-4 col-xs-12">
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 									<a class="btn mailing-list" href="<?php echo home_url() ?>/#mailing-list">Join Mailing List</a>
 								</div>
