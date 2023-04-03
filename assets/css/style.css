@@ -2165,6 +2165,11 @@ header.up {
   margin-top: 4em;
 }
 
+.error404 header ~ .section {
+  min-height: calc(100vh - 76px);
+  background-position: bottom 100px center;
+}
+
 @media (max-width: 980px) {
   .hero .inner_container {
     padding-top: 6em;
