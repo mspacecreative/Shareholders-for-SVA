@@ -857,12 +857,14 @@ hr {
   .row.contact-info {
     display: none;
   }
+  .hero::before {
+    background-size: cover;
+  }
+}
+@media (max-width: 1024px) {
   .jumbotron h1,
 body h1 {
     font-size: 40px;
-  }
-  .hero::before {
-    background-size: cover;
   }
 }
 #contact p,
