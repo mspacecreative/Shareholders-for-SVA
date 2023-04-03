@@ -430,7 +430,7 @@ header {
 
 @media (max-width: 980px) {
   .logo {
-    max-width: 180px;
+    max-width: 200px;
   }
 }
 .container {
