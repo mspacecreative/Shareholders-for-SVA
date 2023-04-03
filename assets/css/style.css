@@ -854,7 +854,7 @@ hr {
     padding-left: inherit;
     padding-right: inherit;
   }
-  .contact-info {
+  .row.contact-info {
     display: none;
   }
   .jumbotron h1,
