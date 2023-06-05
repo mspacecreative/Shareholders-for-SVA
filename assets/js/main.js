@@ -30,7 +30,8 @@
     $(bioButton).each(function () {
       $(this).click(function (e) {
         e.preventDefault();
-        $(modal, modalBackdrop).toggleClass("show");
+        $(modal).toggleClass("show");
+        $(modalBackdrop).toggleClass("show");
         const buttonId = $(this).data("id");
         $('.bio-container[id="' + buttonId + '"').addClass("show");
       });
