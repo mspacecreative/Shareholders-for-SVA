@@ -183,9 +183,9 @@
         $(".modal_overlay").fadeOut("normal", function () {
           $(this).remove();
         });
-        $(".modal").fadeOut("normal", function () {
-          $(this).remove();
-        });
+        // $(".modal").fadeOut("normal", function () {
+        //   $(this).remove();
+        // });
         $(".modal_container").fadeOut();
         $(".modal_inner").removeClass("visible");
       }
