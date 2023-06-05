@@ -6,10 +6,24 @@
 		<!-- <div class="row dark-text top-margin-4em gutter_space_2">
 			<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<div class="boxed">
-					<h2>Dr. Steven Sangha</h2>
-					<p>
-					Dr. Sangha is an experienced and successful investor, executive and corporate director. He has extensive experience investing with start-ups and early stage companies like Sernova and has focused on biotechnology companies, among other areas. A successful medical entrepreneur in the dentistry field, Dr. Sangha also has experience working with pharma/biotechnology companies undertaking clinical trials and engaging with the necessary regulatory processes.
-					</p>
+					<h2>Support a Strong Leadership Team with an Effective Plan that is Delivering Results by voting your shares FOR:</h2>
+					<div class="row">
+						<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<ul>
+								<li>Oscar Cabrera</li>
+								<li>Miguel Aramburu</li>
+								<li>Ernesto Balarezo</li>
+								<li>Douglas Cater</li>
+							</ul>
+						</div>
+						<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<ul>
+								<li>Robert Neal</li>
+								<li>Beatriz Orrantia</li>
+								<li>Carlos E. Santa Cruz</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
