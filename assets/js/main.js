@@ -105,23 +105,23 @@
       e.stopPropagation();
     });
 
-    $("body").on("click", ".modal_inner .closeModalButton", function () {
-      $("html").removeClass("fixed");
-      $(this).parent().removeClass("visible");
-      $(this).parent().parent().parent().parent().fadeOut();
-      $(".modal").fadeOut("normal", function () {
-        $(this).remove();
-      });
-    });
+    // $("body").on("click", ".modal_inner .closeModalButton", function () {
+    //   $("html").removeClass("fixed");
+    //   $(this).parent().removeClass("visible");
+    //   $(this).parent().parent().parent().parent().fadeOut();
+    //   $(".modal").fadeOut("normal", function () {
+    //     $(this).remove();
+    //   });
+    // });
 
-    $("body").on("click", ".modal_container", function () {
-      $("html").removeClass("fixed");
-      $(this).fadeOut();
-      $(".modal_inner").removeClass("visible");
-      $(".modal").fadeOut("normal", function () {
-        $(this).remove();
-      });
-    });
+    // $("body").on("click", ".modal_container", function () {
+    //   $("html").removeClass("fixed");
+    //   $(this).fadeOut();
+    //   $(".modal_inner").removeClass("visible");
+    //   $(".modal").fadeOut("normal", function () {
+    //     $(this).remove();
+    //   });
+    // });
 
     // ACCORDION FUNCTIONALITY
     $(".tabRow > a").click(function (e) {
