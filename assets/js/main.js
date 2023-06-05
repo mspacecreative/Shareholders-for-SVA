@@ -25,12 +25,12 @@
 
     // BIO MODAL FUNCTIONALITY
     let bioId = $(".bios li > a").attr("data-id");
+    let bio = $(".bio-container");
     $(".bios")
       .find("li > a")
       .each(function () {
-        let directorId = $(this).attr("id");
         $(this).click(function () {
-          bioId.attr("data-id", directorId).css("display", "block");
+          bio.attr("data-id", bioId).css("display", "block");
         });
       });
 
