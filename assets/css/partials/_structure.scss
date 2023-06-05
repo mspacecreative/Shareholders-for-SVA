@@ -222,6 +222,10 @@ header {
 	background-color: #000;
 }
 
+footer {
+	background-color: $brandDarkGrey;
+}
+
 @media (max-width: 850px) {
 	.modal-content {
 		padding: 2em;

@@ -8,7 +8,7 @@
 				default:
 					$value = '';
 			} ?>
-			<div class="inner_container <?php echo $value ?>">
+			<div class="light inner_container <?php echo $value ?>">
 				<p><?php echo __('&copy '); echo date('Y '); echo __('Carson Proxy Advisors. All rights reserved.'); ?></p>
 			</div>
 		</footer>

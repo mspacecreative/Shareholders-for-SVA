@@ -457,7 +457,7 @@ header {
 }
 
 .darkGreyBg {
-  background-color: #444;
+  background-color: #252C30;
 }
 
 .row.gutterSpaceWider {
@@ -590,6 +590,10 @@ header {
 
 .modal_inner .closeModalButton span {
   background-color: #000;
+}
+
+footer {
+  background-color: #252C30;
 }
 
 @media (max-width: 850px) {
