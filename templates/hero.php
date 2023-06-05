@@ -9,7 +9,7 @@
 					<h2>Support a Strong Leadership Team with an Effective Plan that is Delivering Results by voting your shares FOR:</h2>
 					<div class="row gutter_space_1">
 						<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<ul>
+							<ul style="margin-top: 0;">
 								<li>Oscar Cabrera</li>
 								<li>Miguel Aramburu</li>
 								<li>Ernesto Balarezo</li>
@@ -17,7 +17,7 @@
 							</ul>
 						</div>
 						<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<ul>
+							<ul style="margin-top: 0;">
 								<li>Robert Neal</li>
 								<li>Beatriz Orrantia</li>
 								<li>Carlos E. Santa Cruz</li>
