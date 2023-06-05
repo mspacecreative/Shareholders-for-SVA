@@ -29,8 +29,9 @@
     $(".bios")
       .find("li > a")
       .each(function () {
+        let showBio = $(".bio-container").attr("data-id", bioId);
         $(this).click(function () {
-          bio.attr("data-id", bioId).css("display", "block");
+          showBio.css("display", "block");
         });
       });
 
