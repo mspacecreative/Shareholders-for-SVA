@@ -643,8 +643,8 @@ footer {
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.hero .section {
-  padding-bottom: 2em;
+.hero.section {
+  padding-bottom: 4em;
 }
 .hero .inner_container {
   padding-top: 12em;
