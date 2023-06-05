@@ -43,12 +43,7 @@
       $(".bio-container").removeClass("show");
     });
 
-    $(".bio-container").click(function (e) {
-      e.stopPropagation();
-      e.preventDefault();
-      e.stopImmediatePropagation();
-      return false;
-    });
+    $(".bio-container").click(false);
 
     function removeOverlayButtons() {
       $("html").removeClass("fixed");
