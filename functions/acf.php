@@ -162,19 +162,6 @@ function my_acf_init() {
 			'supports'			=> array( 'mode' => false ),
 		));
 		
-		// register flexbox block
-		acf_register_block(array(
-			'name'				=> 'carousel',
-			'title'				=> __('Carousel Block'),
-			'description'		=> __('Displays image carousel'),
-			'render_callback'	=> 'my_acf_block_render_callback',
-			'category'			=> 'formatting',
-			'icon'				=> 'images-alt',
-			'keywords'			=> array( 'carousel', 'photo gallery' ),
-			'mode'				=> 'edit',
-			'supports'			=> array( 'mode' => false ),
-		));
-		
 		// register content block
 		acf_register_block(array(
 			'name'				=> 'boxed-columns',
