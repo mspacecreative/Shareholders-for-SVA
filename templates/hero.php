@@ -7,7 +7,7 @@
 			<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<div class="boxed">
 					<h2>Support a Strong Leadership Team with an Effective Plan that is Delivering Results by voting your shares FOR:</h2>
-					<div class="row gutter_space_1">
+					<div class="row gutter_space_1 revert-colour">
 						<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<ul style="margin-top: 0;">
 								<li>Oscar Cabrera</li>

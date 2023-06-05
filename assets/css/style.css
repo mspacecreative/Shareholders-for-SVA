@@ -703,6 +703,10 @@ header .top-header .mailing-list {
   color: #fff;
 }
 
+.light .revert-colour ul {
+  color: #000;
+}
+
 .light .wpcf7 input {
   border-bottom-color: #fff;
 }
