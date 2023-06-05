@@ -37,10 +37,14 @@
       });
     });
 
-    modalBackdrop.click(function () {
+    modal.click(function () {
       $(this).removeClass("show");
-      modal.removeClass("show");
+      modalBackdrop.removeClass("show");
       $("bio-container").removeClass("show");
+    });
+
+    $(".bio-container").click(function (e) {
+      e.stopPropagation();
     });
 
     function removeOverlayButtons() {
