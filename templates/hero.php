@@ -10,17 +10,17 @@
 					<div class="row gutter_space_1 revert-colour bios">
 						<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<ul style="margin-top: 0;">
-								<li><a href="#" id="bio-1">Oscar Cabrera</a></li>
-								<li><a href="#" id="bio-2">Miguel Aramburu</a></li>
-								<li><a href="#" id="bio-3">Ernesto Balarezo</a></li>
-								<li><a href="#" id="bio-4">Douglas Cater</a></li>
+								<li><a href="#" data-id="bio-1">Oscar Cabrera</a></li>
+								<li><a href="#" data-id="bio-2">Miguel Aramburu</a></li>
+								<li><a href="#" data-id="bio-3">Ernesto Balarezo</a></li>
+								<li><a href="#" data-id="bio-4">Douglas Cater</a></li>
 							</ul>
 						</div>
 						<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<ul style="margin-top: 0;">
-								<li><a href="#" id="bio-5">Robert Neal</a></li>
-								<li><a href="#" id="bio-6">Beatriz Orrantia</a></li>
-								<li><a href="#" id="bio-7">Carlos E. Santa Cruz</a></li>
+								<li><a href="#" data-id="bio-5">Robert Neal</a></li>
+								<li><a href="#" data-id="bio-6">Beatriz Orrantia</a></li>
+								<li><a href="#" data-id="bio-7">Carlos E. Santa Cruz</a></li>
 							</ul>
 						</div>
 					</div>

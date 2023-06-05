@@ -24,16 +24,15 @@
     }
 
     // BIO MODAL FUNCTIONALITY
-    let bioId = $(".bios li > a").attr("data-id");
+    let bioButton = $(".bios li > a");
+    let buttonId = bioButton.attr("data-id");
     let bio = $(".bio-container");
-    $(".bios")
-      .find("li > a")
-      .each(function () {
-        let showBio = $(".bio-container").attr("data-id", bioId);
-        $(this).click(function () {
-          showBio.css("display", "block");
-        });
+    let bioId = bio.attr("id");
+    $(bioButton).each(function () {
+      $(this).click(function () {
+        bio.attr("id", buttonId).css("display", "block");
       });
+    });
 
     function removeOverlayButtons() {
       $("html").removeClass("fixed");

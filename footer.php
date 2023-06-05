@@ -31,7 +31,7 @@
 					$content = get_the_content($loop->ID);
 					$count = $count + 1;
 					echo
-					'<div data-id="bio-' . $count . '" class="bio-container">'
+					'<div id="bio-' . $count . '" class="bio-container">'
 						. $content . 
 					'</div>';
 				}
