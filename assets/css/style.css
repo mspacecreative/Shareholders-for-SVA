@@ -540,7 +540,6 @@ header {
   bottom: 0;
   right: 0;
   display: none;
-  cursor: pointer;
   -webkit-overflow-scrolling: touch;
   outline: none;
   overflow: auto;
