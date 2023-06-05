@@ -36,6 +36,12 @@
       });
     });
 
+    modalBackdrop.click(function () {
+      $(this).removeClass("show");
+      modal.removeClass("show");
+      $("bio-container").removeClass("show");
+    });
+
     function removeOverlayButtons() {
       $("html").removeClass("fixed");
       menuOverlay.removeClass("show");
