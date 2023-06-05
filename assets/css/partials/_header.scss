@@ -5,14 +5,13 @@ header {
   top: 0;
   left: 0;
   padding: 15px 0 0;
-  background-color: transparent;
+  background-color: #fff;
 
   .main-header {
     flex-basis: 100%;
-    padding: 15px 0;
-    background-color: $brandPurple;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+    padding: 20px 0;
+    // border-top: 1px solid #fff;
+    // border-bottom: 1px solid #fff;
   }
 
   .col {
@@ -20,7 +19,7 @@ header {
   }
 
   .top-header {
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
     font-size: 13px;
     // padding-left: 0.5rem;
     // padding-right: 0.5rem;
@@ -34,9 +33,9 @@ header {
       margin-right: 10px;
     }
 
-    a {
-      color: #fff;
-    }
+    // a {
+    //   color: #fff;
+    // }
 
     .row.gutter_space_2 .col {
       margin-bottom: 0;

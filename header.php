@@ -32,16 +32,16 @@
 			<div class="row between-lg between-md" style="margin-right: auto; margin-left: auto;">
 				<div class="inner_container">
 					<div class="top-header" style="flex-basis: 100%;">
-						<div class="row middle-lg middle-md middle-sm between-lg between-md end-xs">
+						<div class="row middle-lg middle-md middle-sm end-xs">
 							
-							<div class="col col-lg-9 col-md-9 col-sm-9 col-xs-12">
+							<div class="col col-lg-8 col-md-8 col-sm-8 col-xs-12 row end-lg end-md end-sm">
 								<?php
 								// CONTACT VARIABLES
 								$local_number = get_field('local_phone_number', 'options');
 								$tollfree_number = get_field('tollfree_number', 'options');
 								$email_address = get_field('email_address', 'options');
 								?>
-								<div class="row gutter_space_2 contact-info">
+								<div class="row gutter_space_1 contact-info">
 									<div class="col flex-basis-auto">
 										<a style="font-size: 13px;" href="mailto:<?php echo $email_address ?>"><i class="fa fa-envelope"></i><?php echo $email_address ?></a>
 									</div>
@@ -54,7 +54,7 @@
 								</div>
 							</div>
 
-							<div class="row end-lg end-md end-sm col col-lg-3 col-md-3 col-sm-4 col-xs-12">
+							<div class="row end-lg end-md end-sm col col-lg-3 col-md-3 col-sm-4 col-xs-12 flex-basis-auto">
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 									<a class="btn mailing-list" href="<?php echo home_url() ?>/#mailing-list">Join Mailing List</a>
 								</div>
@@ -71,7 +71,7 @@
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-7" style="display: flex; align-items: center;">
 								<div class="logo">
 									<a href="<?php echo home_url(); ?>">
-										<?php include 'assets/img/branding/shareholders_for_SVA.svg'; ?>
+										<?php include 'assets/img/branding/sierra-metals-logo.svg'; ?>
 									</a>
 								</div>
 							</div>
@@ -82,7 +82,7 @@
 								<!-- <?php echo do_shortcode('[social_media]'); ?> -->
 								<!-- / SOCIAL MEDIA -->
 
-								<nav >
+								<nav>
 									<?php echo fsd_nav(); ?>
 								</nav>
 								

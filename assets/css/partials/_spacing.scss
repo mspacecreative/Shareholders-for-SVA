@@ -51,6 +51,12 @@
     background-position: bottom 100px center !important;
 }
 
+div.flex-basis-auto {
+    flex-basis: auto;
+    max-width: 100%;
+    margin-left: 25px;
+}
+
 @media (max-device-width: 880px) and (orientation: landscape) {
     .error404 header~.section {
         background-position: center !important;

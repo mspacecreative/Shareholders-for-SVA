@@ -1,13 +1,15 @@
-$brandBlue: #4A54BD;
+$brandBlue: #036598;
 $brandDarkGrey: #444;
 $brandLightGrey: #b6b6b6;
 $brandOrange: #DC9227;
 $brandPurple: #5C5AA7;
+$brandGold: #B1924D;
 
 @import "partials/normalize.min";
 @import "partials/main";
 @import "partials/structure";
 @import "partials/hero";
+@import "partials/buttons";
 @import "partials/typography";
 @import "partials/flexboxgrid.min";
 @import "partials/hamburgers";
@@ -18,6 +20,5 @@ $brandPurple: #5C5AA7;
 @import "partials/spacing";
 @import "partials/accordion";
 @import "partials/headshots";
-@import "partials/buttons";
 @import "partials/images";
 @import "partials/slick-theme";

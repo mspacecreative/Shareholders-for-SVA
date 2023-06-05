@@ -3,11 +3,12 @@
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
-	padding-bottom: 20em;
-	margin-bottom: -20em;
+	// padding-bottom: 20em;
+	// margin-bottom: -20em;
+	background-image: url(../img/backgrounds/Aerial-View-2.jpg);
 
 	&::before {
-		background-image: url(../img/backgrounds/blob.svg);
+		// background-image: url(../img/branding/sierra-metals-mountain-graphic.svg);
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -16,7 +17,7 @@
 		left: 0;
 		background-repeat: no-repeat;
 		background-size: contain;
-		background-position: top -200px center;
+		background-position: top -80px center;
 	}
 
 	// &::after {
@@ -29,13 +30,23 @@
 	// 	background: linear-gradient(0deg, #f9f9f9, transparent);
 	// }
 
+	&::after {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		background-color: rgba($color: #000000, $alpha: .5);
+	}
+
 	.section {
 		padding-bottom: 4em;
 	}
 
 	//margin-top: 92.77px;
 	.inner_container {
-		padding-top: 8em;
+		padding-top: 12em;
 		position: relative;
 		z-index: 1;
 		padding-bottom: 0;
