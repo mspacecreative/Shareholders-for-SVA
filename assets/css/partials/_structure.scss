@@ -231,6 +231,18 @@ header {
 	padding: 3em;
 }
 
+.bio-container {
+	background: #fff;
+	max-width: 800px;
+	margin: auto;
+	padding: 3em;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
 .modal_inner .closeModalButton {
 	top: .75em;
 	right: .75em;
