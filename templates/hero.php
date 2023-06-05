@@ -3,7 +3,7 @@
 	<div class="inner_container section" style="text-align: center;">
 		<h1>Strong Leadership.<br>Effective Plan. Delivering Results.</h1>
 		<p style="max-width: 750px; margin-right: auto; margin-left: auto;">Sierra Metals should not return to the short-sighted and self-interested ways of the past. We are making excellent progress in building a company that is positioned for longterm, sustainable growth.</p><p style="max-width: 750px; margin-right: auto; margin-left: auto;">This work is commanding the full attention of the leadership team. At such a crucial time for the Corporation, the proposal by ARC is opportunistic and disruptive.</p>
-		<!-- <div class="row dark-text top-margin-4em gutter_space_2">
+		<div class="row dark-text top-margin-4em gutter_space_2">
 			<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<div class="boxed">
 					<h2>Support a Strong Leadership Team with an Effective Plan that is Delivering Results by voting your shares FOR:</h2>
@@ -34,7 +34,7 @@
 					</p>
 				</div>
 			</div>
-		</div> -->
+		</div>
   </div>
 </section>
 <!-- / hero -->
