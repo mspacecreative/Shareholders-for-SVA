@@ -32,7 +32,11 @@
 						$content = get_the_content($loop->ID);
 						$count = $count + 1;
 						echo
-						'<div id="bio-' . $count . '" class="bio-container">'
+						'<div id="bio-' . $count . '" class="bio-container">
+							<button class="closeModalButton">
+								<span style="background-color: #000;">&nbsp;</span>
+								<span style="background-color: #000;">&nbsp;</span>
+							</button>'
 							. $content . 
 						'</div>';
 					}
