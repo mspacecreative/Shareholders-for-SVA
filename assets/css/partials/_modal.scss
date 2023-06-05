@@ -1,7 +1,9 @@
-.bio-container {
+.bio-container,
+.modal-backdrop {
     display: none;
 }
 
-.bio-container.show {
+.bio-container.show,
+.modal-backdrop.show {
     display: block;
 }

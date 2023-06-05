@@ -525,7 +525,6 @@ header {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.75);
-  display: none;
 }
 
 .modal-backdrop.show {
@@ -2339,11 +2338,13 @@ header:not(.white-bg) .logo--blue {
   fill: #fff;
 }
 
-.bio-container {
+.bio-container,
+.modal-backdrop {
   display: none;
 }
 
-.bio-container.show {
+.bio-container.show,
+.modal-backdrop.show {
   display: block;
 }
 
