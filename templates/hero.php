@@ -28,9 +28,9 @@
 			</div>
 			<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<div class="boxed">
-					<h2>Bertram von Plettenberg</h2>
+					<h2>Time is of the Essence!</h2>
 					<p>
-					Mr. von Plettenberg has significant corporate planning, financing and M&A expertise. Mr. von Plettenberg worked closely with Sernova’s leadership in 2020-2021 to develop the corporation’s first comprehensive financial plan and helped Sernova engage with a large U.S. medical-technology corporation regarding a potential partnership.
+					The deadline to vote your shares is Monday June 26, 2023 at 2:00 p.m. Eastern Time (ET). Vote ONLY using Sierra’s GREEN voting form. Please discard any yellow or other voting forms that you receive.
 					</p>
 				</div>
 			</div>
