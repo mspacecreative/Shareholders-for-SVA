@@ -23,6 +23,17 @@
       }
     }
 
+    // BIO MODAL FUNCTIONALITY
+    let bioId = $(".bios li > a").attr("data-id");
+    $(".bios")
+      .find("li > a")
+      .each(function () {
+        let directorId = $(this).attr("id");
+        $(this).click(function () {
+          bioId.attr("dataid", directorId).css("display", "block");
+        });
+      });
+
     function removeOverlayButtons() {
       $("html").removeClass("fixed");
       menuOverlay.removeClass("show");

@@ -7,20 +7,20 @@
 			<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<div class="boxed">
 					<h2>Support a Strong Leadership Team with an Effective Plan that is Delivering Results by voting your shares FOR:</h2>
-					<div class="row gutter_space_1 revert-colour">
+					<div class="row gutter_space_1 revert-colour bios">
 						<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<ul style="margin-top: 0;">
-								<li>Oscar Cabrera</li>
-								<li>Miguel Aramburu</li>
-								<li>Ernesto Balarezo</li>
-								<li>Douglas Cater</li>
+								<li><a href="#" id="bio-1">Oscar Cabrera</a></li>
+								<li><a href="#" id="bio-2">Miguel Aramburu</a></li>
+								<li><a href="#" id="bio-3">Ernesto Balarezo</a></li>
+								<li><a href="#" id="bio-4">Douglas Cater</a></li>
 							</ul>
 						</div>
 						<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 							<ul style="margin-top: 0;">
-								<li>Robert Neal</li>
-								<li>Beatriz Orrantia</li>
-								<li>Carlos E. Santa Cruz</li>
+								<li><a href="#" id="bio-5">Robert Neal</a></li>
+								<li><a href="#" id="bio-6">Beatriz Orrantia</a></li>
+								<li><a href="#" id="bio-7">Carlos E. Santa Cruz</a></li>
 							</ul>
 						</div>
 					</div>
