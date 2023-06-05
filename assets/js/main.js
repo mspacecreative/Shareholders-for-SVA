@@ -40,7 +40,7 @@
     modal.click(function () {
       $(this).removeClass("show");
       modalBackdrop.removeClass("show");
-      $("bio-container").removeClass("show");
+      $(".bio-container").removeClass("show");
     });
 
     $(".bio-container").click(function (e) {
