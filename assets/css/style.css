@@ -518,6 +518,20 @@ header {
   cursor: default;
 }
 
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+}
+
+.modal-backdrop.show {
+  display: block;
+}
+
 .modal {
   position: fixed;
   z-index: 9999999;
@@ -530,6 +544,10 @@ header {
   cursor: pointer;
   -webkit-overflow-scrolling: touch;
   outline: none;
+}
+
+.modal.show {
+  display: block;
 }
 
 .modal_container {

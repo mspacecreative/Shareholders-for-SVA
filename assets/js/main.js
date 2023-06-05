@@ -25,11 +25,12 @@
 
     // BIO MODAL FUNCTIONALITY
     let bioButton = $(".bios li > a");
-    // let buttonId = bioButton.attr("data-id");
-    let bio = $(".bio-container");
-    // let bioId = bio.attr("id");
+    const modal = $(".modal");
+    const modalBackdrop = $(".modal-backdrop");
     $(bioButton).each(function () {
       $(this).click(function () {
+        preventDefault();
+        $(modal, modalBackdrop).toggleClass("show");
         const buttonId = $(this).data("id");
         $('.bio-container[id="' + buttonId + '"').css("display", "block");
       });
