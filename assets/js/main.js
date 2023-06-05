@@ -25,16 +25,13 @@
 
     // BIO MODAL FUNCTIONALITY
     let bioButton = $(".bios li > a");
-    let buttonId = bioButton.attr("data-id");
+    // let buttonId = bioButton.attr("data-id");
     let bio = $(".bio-container");
-    let bioId = bio.attr("id");
+    // let bioId = bio.attr("id");
     $(bioButton).each(function () {
       $(this).click(function () {
-        bio.each(function () {
-          if (bio.attr("id", buttonId)) {
-            $(this).css("display", "block");
-          }
-        });
+        const buttonId = $(this).data("id");
+        $('.bio-container[id="' + buttonId + '"').css("display", "block");
       });
     });
 
