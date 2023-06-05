@@ -2343,6 +2343,10 @@ header:not(.white-bg) .logo--blue {
   display: none;
 }
 
+.bio-container.show {
+  display: block;
+}
+
 /* Slider */
 .slick-loading .slick-list {
   background: #fff url("./ajax-loader.gif") center center no-repeat;

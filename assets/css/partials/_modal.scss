@@ -1,3 +1,7 @@
 .bio-container {
     display: none;
 }
+
+.bio-container.show {
+    display: block;
+}

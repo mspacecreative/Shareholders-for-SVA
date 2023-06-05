@@ -32,7 +32,7 @@
         e.preventDefault();
         $(modal, modalBackdrop).toggleClass("show");
         const buttonId = $(this).data("id");
-        $('.bio-container[id="' + buttonId + '"').css("display", "block");
+        $('.bio-container[id="' + buttonId + '"').addClass("show");
       });
     });
 
