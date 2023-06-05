@@ -30,7 +30,7 @@
       .each(function () {
         let directorId = $(this).attr("id");
         $(this).click(function () {
-          bioId.attr("dataid", directorId).css("display", "block");
+          bioId.attr("data-id", directorId).css("display", "block");
         });
       });
 
