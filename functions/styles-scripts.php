@@ -12,11 +12,11 @@ function fsd_styles() {
 	wp_register_script('slick-js', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), true );
 	wp_enqueue_script('slick-js');
 	
-	wp_register_style( 'adobe-font', 'https://use.typekit.net/nma5kgv.css', array(), null );
-	wp_enqueue_style( 'adobe-font' );
-	
 	wp_register_style( 'fontawesome', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), null );
 	wp_enqueue_style( 'fontawesome' );
+
+	wp_register_style( 'google-font', 'https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,600;1,400;1,600&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap', array(), null );
+	wp_enqueue_style( 'google-font' );
     
     //wp_register_script('aos-script', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js', array('jquery'), null, true);
 	//wp_enqueue_script('aos-script');
