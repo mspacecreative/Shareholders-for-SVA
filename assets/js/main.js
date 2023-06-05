@@ -30,7 +30,11 @@
     let bioId = bio.attr("id");
     $(bioButton).each(function () {
       $(this).click(function () {
-        bio.attr("id", buttonId).css("display", "block");
+        bio.each(function () {
+          if (bio.attr("id", buttonId)) {
+            $(this).css("display", "block");
+          }
+        });
       });
     });
 
