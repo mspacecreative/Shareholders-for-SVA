@@ -172,6 +172,7 @@ header {
 	cursor: pointer;
 	-webkit-overflow-scrolling: touch;
 	outline: none;
+	overflow: auto;
 }
 
 .modal.show {

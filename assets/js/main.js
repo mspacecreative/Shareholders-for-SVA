@@ -45,6 +45,9 @@
 
     $(".bio-container").click(function (e) {
       e.stopPropagation();
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      return false;
     });
 
     function removeOverlayButtons() {
