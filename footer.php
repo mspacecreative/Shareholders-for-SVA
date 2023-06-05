@@ -29,7 +29,7 @@
 				while ($loop->have_posts()) {
 					$loop->the_post();
 					$content = get_the_content($loop->ID);
-					$count = $count + 1
+					$count = $count + 1;
 					echo
 					'<div data-id="bio-' . $count . '" class="bio-container">'
 						. $content . 
