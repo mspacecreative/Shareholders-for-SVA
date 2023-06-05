@@ -24,7 +24,7 @@
 			echo
 			'
 			<div class="modal-backdrop"></div>
-			<div class="modal" style="display:none;">
+			<div class="modal">
 				<div class="modal-inner">';
 				while ($loop->have_posts()) {
 					$loop->the_post();
