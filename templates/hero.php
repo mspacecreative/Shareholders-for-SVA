@@ -2,7 +2,7 @@
 <section class="hero section light">
 	<div class="inner_container section" style="text-align: center;">
 		<h1>Strong Leadership.<br>Effective Plan. Delivering Results.</h1>
-		<p style="max-width: 750px; margin-right: auto; margin-left: auto;">Sernova’s Board needs new voices. We are nominating two highly qualified individuals to bring independent shareholder representation to the Board.</p>
+		<p style="max-width: 750px; margin-right: auto; margin-left: auto;">Sierra Metals should not return to the short-sighted and self-interested ways of the past. We are making excellent progress in building a company that is positioned for longterm, sustainable growth. This work is commanding the full attention of the leadership team. At such a crucial time for the Corporation, the proposal by ARC is opportunistic and disruptive.</p>
 		<!-- <div class="row dark-text top-margin-4em gutter_space_2">
 			<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<div class="boxed">
