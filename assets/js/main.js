@@ -43,6 +43,12 @@
       $(".bio-container").removeClass("show");
     });
 
+    $(".bio-container .closeModalButton").click(function () {
+      $(modal).toggleClass("show");
+      $(modalBackdrop).toggleClass("show");
+      $(this).parent().removeClass("show");
+    });
+
     function removeOverlayButtons() {
       $("html").removeClass("fixed");
       menuOverlay.removeClass("show");
