@@ -565,7 +565,6 @@ header {
   display: table;
   height: 100%;
   width: 100%;
-  pointer-events: none;
   outline: none;
 }
 
@@ -575,7 +574,6 @@ header {
   vertical-align: middle;
   display: table-cell;
   padding: 2em;
-  pointer-events: none;
   outline: none;
 }
 
