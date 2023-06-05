@@ -186,7 +186,7 @@
         // $(".modal").fadeOut("normal", function () {
         //   $(this).remove();
         // });
-        $(".bio-container", modal, modalBackdrop).removeClass("show");
+        $(".bio-container, .modal, .modal-backdrop").removeClass("show");
         $(".modal_container").fadeOut();
         $(".modal_inner").removeClass("visible");
       }
