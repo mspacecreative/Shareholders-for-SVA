@@ -2349,6 +2349,9 @@ header:not(.white-bg) .logo--blue {
 .bio-container {
   position: relative;
 }
+.bio-container .closeModalButton {
+  right: 1em;
+}
 
 /* Slider */
 .slick-loading .slick-list {
