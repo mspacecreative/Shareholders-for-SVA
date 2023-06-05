@@ -186,6 +186,7 @@
         // $(".modal").fadeOut("normal", function () {
         //   $(this).remove();
         // });
+        $(".bio-container").removeClass("show");
         $(".modal_container").fadeOut();
         $(".modal_inner").removeClass("visible");
       }
