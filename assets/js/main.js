@@ -43,8 +43,6 @@
       $(".bio-container").removeClass("show");
     });
 
-    $(".bio-container").click(false);
-
     function removeOverlayButtons() {
       $("html").removeClass("fixed");
       menuOverlay.removeClass("show");
@@ -101,7 +99,7 @@
       }
     });
 
-    $(".modal-content").click(function (e) {
+    $(".modal-content, .bio-container").click(function (e) {
       e.stopPropagation();
     });
 
