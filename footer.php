@@ -25,18 +25,20 @@
 			'
 			<div class="modal-backdrop"></div>
 			<div class="modal">
-				<div class="modal-inner">';
-				while ($loop->have_posts()) {
-					$loop->the_post();
-					$content = get_the_content($loop->ID);
-					$count = $count + 1;
+				<div class="modal_table">
+					<div class="modal_table_cell">';
+					while ($loop->have_posts()) {
+						$loop->the_post();
+						$content = get_the_content($loop->ID);
+						$count = $count + 1;
+						echo
+						'<div id="bio-' . $count . '" class="bio-container">'
+							. $content . 
+						'</div>';
+					}
 					echo
-					'<div id="bio-' . $count . '" class="bio-container">'
-						. $content . 
-					'</div>';
-				}
-				echo
-				'</div>
+					'</div>
+				</div>
 			</div>';
 		} wp_reset_query();
 		?>
