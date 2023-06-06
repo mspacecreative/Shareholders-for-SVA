@@ -623,6 +623,11 @@ footer {
   background-color: #252C30;
 }
 
+@media (max-width: 980px) {
+  .boxed {
+    padding: 2em;
+  }
+}
 @media (max-width: 850px) {
   .modal-content {
     padding: 2em;
