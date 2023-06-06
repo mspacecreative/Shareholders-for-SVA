@@ -792,6 +792,10 @@ li {
   line-height: 1.5em;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 p,
 ol,
 ul,

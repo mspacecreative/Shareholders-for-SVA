@@ -342,7 +342,7 @@ if ( $blockanchor && $bgcolor == 'dark' ): ?>
 						<?php 
 						$heading = get_sub_field('heading');
 						if ( $heading ) {
-							echo '<h3 class="gold">' . $heading . '</h3>';
+							echo '<h3 class="bold">' . $heading . '</h3>';
 						}
 						echo '<div class="arrow_container">'; include 'includes/icons/arrow.svg'; echo '</div>'; ?>
 					</div>
@@ -355,7 +355,7 @@ if ( $blockanchor && $bgcolor == 'dark' ): ?>
 					<?php 
 					$heading = get_sub_field('heading');
 					if ( $heading ) {
-						echo '<h3 class="gold">' . $heading . '</h3>';
+						echo '<h3 class="bold">' . $heading . '</h3>';
 					}
 					echo '<div class="arrow_container">'; include 'includes/icons/arrow.svg'; echo '</div>'; ?>
 				</div>
@@ -546,7 +546,7 @@ if ( $blockanchor && $bgcolor == 'dark' ): ?>
 						<?php 
 						$heading = get_sub_field('heading');
 						if ( $heading ) {
-							echo '<h3 class="gold">' . $heading . '</h3>';
+							echo '<h3 class="bold">' . $heading . '</h3>';
 						}
 						echo '<div class="arrow_container">'; include 'includes/icons/arrow.svg'; echo '</div>'; ?>
 					</div>
