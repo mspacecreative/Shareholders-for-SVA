@@ -795,6 +795,9 @@ li {
 .bold {
   font-weight: bold;
 }
+.bold span {
+  font-weight: normal;
+}
 
 p,
 ol,
