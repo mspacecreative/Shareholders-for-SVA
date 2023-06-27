@@ -30,7 +30,7 @@
 				<div class="boxed">
 					<h2>Time is of the Essence!</h2>
 					<p class="big">
-					Annual General and Special Meeting of shareholders to be held online at https://meetnow.global/MFXH4US on Wednesday, June 28, 2023 at 2:00 p.m. (EDT).
+					Annual General and Special Meeting of shareholders to be held online at <a href="https://meetnow.global/MFXH4US" target="_blank">meetnow.global</a> on Wednesday, June 28, 2023 at 2:00 p.m. (EDT).
 					</p>
 				</div>
 			</div>
