@@ -30,7 +30,7 @@
 				<div class="boxed">
 					<h2>Time is of the Essence!</h2>
 					<p class="big">
-					The deadline to vote your shares is Monday June 26, 2023 at 2:00 p.m. Eastern Time (ET). Vote ONLY using Sierra’s GREEN voting form. Please discard any yellow or other voting forms that you receive.
+					Annual General and Special Meeting of shareholders to be held online at https://meetnow.global/MFXH4US on Wednesday, June 28, 2023 at 2:00 p.m. (EDT).
 					</p>
 				</div>
 			</div>
